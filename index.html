@@ -73,6 +73,7 @@ button.copy.done { background: var(--ok); }
 .case-text { font-family: var(--mono); font-size: 0.85rem; line-height: 1.7; margin-top: 10px; }
 details summary { cursor: pointer; color: var(--accent); font-weight: 700; padding: 4px 0; }
 details summary:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+.note { margin: -4px 0 0; color: var(--muted); font-size: 0.95rem; }
 </style>
 
 <div class="wrap">
@@ -282,6 +283,23 @@ details summary:focus-visible { outline: 3px solid var(--fg); outline-offset: 2p
 次に貼る「会社の事実」と「私たちの結論（選んだ方針・最初の一歩・保留にしたこととその理由）」を読んで、①経営者に1〜2分で説明する文章 ②反対する人が最初に言いそうなことを2〜3つと、それへの答え ③根拠が事実で支えられていない「弱いところ」 を書いてください。
 根拠は、貼った事実と私たちの結論の中の言葉だけを使ってください。事実にない数字や情報は足さず、足りないところは「弱い：〜が事実で確認できていない」と書いてください。一般論ではなく、この会社の事実に即して書いてください。</p>
     <button class="copy" id="b3" data-target="p3" type="button">コピー</button>
+  </section>
+
+  <section class="card">
+    <div class="head"><h2>③の続き　改善方針シートの問い</h2><span class="tag">ROUND 3c・班</span></div>
+    <p class="note">③と同じチャットで、続けて貼ります。</p>
+    <p class="prompt" id="p3c">ここまでの話（会社の事実、私たちの結論、説明の練習）の続きです。あなたは、私たちの班の書記です。新しい案は出さず、結論も変えないでください。
+これから「改善方針シート」の下書きを作ります。このあとに貼る「R2で、はっとしたAIの指摘」と「5軸で採用したもの・採用しなかったもの、その理由」も使って、次の1〜6の見出しで短く書いてください。
+1 最重要課題（1つ）：「〜が〜になっていること」の形で。症状ではなく、問題の形で書く。
+2 その根拠：会社の事実の言葉や数字をそのまま引用する。推測は頭に「推測：」と付ける。
+3 まだ足りない情報と、確認の仕方：何を／誰に／どうやって確かめるか。保留にしたことと、その理由もここに書く（3bで戻したものも）。
+4 AIで得た新しい視点（採用したもの）：R2で「はっとした」もののうち、5軸を通ったものだけ。
+5 採用しなかったAI案と、その理由：どの軸で落ちたか。「一般論だった」「数字を作っていた」「説明したら弱かった」も理由として書く。
+6 選んだ改善方針と、最初の一歩：3bの説明文をもとに、「誰が・いつまでに・何をする」の形で。
+根拠は、会社の事実と、私たちが話した・貼った言葉だけを使ってください。事実にない数字や情報は足さず、分からないところは「不明」と書いてください。どのAI案を採用したか、誰が・いつまでにやるかは、あなたが決めないでください。私たちが言っていないところは「班で記入」と書いてください。
+A3の紙に手で書き写すので、各項目は3行以内にして、1〜3を「1枚目」、4〜6を「2枚目」に分けてください。
+最後に、私たちが自分の言葉に直したほうがよいところを2つまで挙げてください。</p>
+    <button class="copy" id="b3c" data-target="p3c" type="button">コピー</button>
   </section>
 
   <section class="card">
